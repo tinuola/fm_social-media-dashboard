@@ -1,39 +1,45 @@
-# fm_social-media-dashboard
+## Frontend Mentor: Social Media Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Solution to the _[Social Media Dashboard with Theme Switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H)_ challenge on Frontend Mentor.
 
-## Recommended IDE Setup
+### Challenge
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Build out a social media dashboard using provided [desktop](/public/fm-assets/design/desktop-preview.jpg) and [mobile](/public/fm-assets/design/mobile-design-dark.jpg) designs;
+- Users should be able to:
+  - See [hover states](/public/fm-assets/design/active-states-dark.jpg) for all interactive elements on the page
+  - Toggle [color theme](/public/fm-assets/design/desktop-design-light.jpg) to their preference
 
-## Type Support for `.vue` Imports in TS
+### Solution
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Tools & Resources
 
-## Customize configuration
+- HTML, CSS, JavaScript
+- Vue 3
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Project Setup
 
-## Project Setup
+Clone repository
+
+In the project directory:
 
 ```sh
-pnpm install
+npm install
 ```
 
-### Compile and Hot-Reload for Development
+Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Optional: Type-Check, Compile and Minify for Production
 
 ```sh
-pnpm build
+npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Optional: Lint with [ESLint](https://eslint.org/)
 
 ```sh
-pnpm lint
+npm run lint
 ```
